@@ -1,9 +1,20 @@
 # MyTube
-React app to demostrate main React concepts with Youtube data api. It has implemented fetching most popular videos and search. 
+Demo React app to practice main React concepts with Youtube data api. 
+* The landing page fetches most popular videos from Youtube and display them in two columns.
+* The search returns max 25 results.
+* Selecting a video leads to the detail page with ability to play it.
+* In the detail page, the search result is moved to the right hand side and display in one column.
+* Click the log to come back to the landing page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Demo hosted in S3 bucket](http://react-mytube.s3-website.eu-west-2.amazonaws.com/)
+
+![gif](./mytube700.gif)
+
+
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
