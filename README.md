@@ -4,7 +4,7 @@ Demo React app to practice main React concepts with Youtube data api.
 * The search returns max 25 results.
 * Selecting a video leads to the detail page with ability to play it.
 * In the detail page, the search result is moved to the right hand side and display in one column.
-* Click the log to come back to the landing page.
+* Click the logo to come back to the landing page.
 
 [Demo hosted in S3 bucket](http://react-mytube.s3-website.eu-west-2.amazonaws.com/)
 
