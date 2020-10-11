@@ -1,3 +1,6 @@
+# MyTube
+React app to demostrate main React concepts with Youtube data api. It has implemented fetching most popular videos and search. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

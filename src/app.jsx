@@ -21,6 +21,10 @@ function App({ youtube }) {
             });
     }, [youtube]);
 
+    const goHome = useCallback(() => {
+        setSelctedVideo(null);
+    }, [])
+
     useEffect(() => {
         youtube
             .mostPopular() //
@@ -29,7 +33,7 @@ function App({ youtube }) {
 
     return (
         <div className={styles.app}>
-            <SearchHeader onSearch={search} />
+            <SearchHeader onSearch={search} onLogoClick={goHome}/>
             <section className={styles.content}>
                 {selectedVideo && (
                     <div className={styles.detail}>
